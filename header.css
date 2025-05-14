@@ -1,0 +1,41 @@
+header{
+  margin: 0;
+  height: 100vh;
+  background-color: rgb(69, 56, 250);
+  color: white;
+  border-radius: 10px;
+}
+
+h1{
+  font-size: 2em;
+  text-align: center;
+  color: rgb(69, 56, 250);
+}
+
+header h1{
+  color: white;
+  position: relative;
+  top: 35vh;
+}
+
+.b1{
+  position: relative;
+  top: 36vh;
+  text-align: center;
+}
+.button{
+  height: 35px;
+  width: 100px;
+  border: none;
+  margin: 6px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(8, 8, 8, 0.795);
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgba(3, 3, 112, 0.568);
+  color: white;
+}
+.button:active{
+  opacity: 0.5;
+}
